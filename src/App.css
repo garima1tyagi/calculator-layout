@@ -13,3 +13,12 @@ body {
 .card-img, .card-img-bottom, .card-img-top {
   height: 12rem;
 }
+.overflow {
+  overflow: hidden;
+}
+ .card-img-top {
+  transform: scale(1);
+}
+.card-img-top:hover {
+  transform: scale(1.8);
+}
