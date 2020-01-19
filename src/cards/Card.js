@@ -11,13 +11,13 @@ class Card extends Component {
             <div className="container-fluid d-flex justify-content-center">
             <div className="row">
             <div className="col-sm-4 col-md-4 col-lg-4">
-            <CardUI imgSrc={BunchyImage} altName={'Bunchy Image'}/>
+            <CardUI imgSrc={BunchyImage} altName={'Bunchy Image'} title={"Bunchy Jumping"} />
                 </div>
             <div className="col-sm-4 col-md-4 col-lg-4">
-            <CardUI imgSrc={SkyDivingImage} altName={'Sky Diving'}/>
+            <CardUI imgSrc={SkyDivingImage} altName={'Sky Diving'} title={"Sky Diving"} />
             </div>
             <div className="col-sm-4 col-md-4 col-lg-4">
-            <CardUI imgSrc={Snorkeling} altName={'Snorkeling'}/>
+            <CardUI imgSrc={Snorkeling} altName={'Snorkeling'} title={"Snorkeling"} />
             </div>
                 </div>
                 </div>

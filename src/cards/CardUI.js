@@ -6,7 +6,10 @@ const CardUI = (props) => {
         <div className="overflow">
         <img src= {props.imgSrc} alt={props.altName} className="card-img-top"></img>
         </div>
-            <div className="overflow card-body">
+        <div className="card-title font-weight-bold">
+        {props.title}
+        </div>
+        <div className="card-body">
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 <button className="btn btn-success">More Info</button>
         </div>
